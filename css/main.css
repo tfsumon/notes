@@ -336,7 +336,7 @@ a:active {
 
 
 #hero-area {
-  padding:130px 0;
+  padding:180px 0;
     background: rgba(0, 0, 0, 0) linear-gradient(135deg, #8ec64e 0%, #41aba0 100%) repeat scroll 0 0;
 }
 #hero-area:before {
@@ -351,17 +351,17 @@ a:active {
     background: url(../img/header-overlay.png);
     opacity: 0.9;
 }
-#hero-area .content-block {
+#hero-area .block {
   padding-top: 100px;
 }
-#hero-area .content-block h1 {
+#hero-area .block h1 {
   margin-bottom: 35px;
   text-transform: uppercase;
   font-size: 40px;
   letter-spacing: 6px;
   position: relative;
 }
-#hero-area .content-block h1:before {
+#hero-area .block h1:before {
   content: "";
   position: absolute;
   left: 0;
@@ -488,7 +488,7 @@ a:active {
 }
 #hero-area .block {
 }
-#hero-area .content-block p {
+#hero-area .block p {
     color: #fff;
     font-size: 18px; 
     font-weight: 300;
@@ -497,8 +497,9 @@ a:active {
 
 #hero-area .block .counter {
     background: rgba(255, 255, 255, 0.2);
-    padding: 75px 18px;
+    padding:18px;
 }
+
 #hero-area .block .counter h2 {
     color: #fff;
     font-size: 30px;
